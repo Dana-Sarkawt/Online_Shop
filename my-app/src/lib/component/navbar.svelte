@@ -6,6 +6,7 @@
    import {order_num} from "../store"
    var order_count = 0
    order_num.subscribe((val)=> val = order_count)
+   
   </script>
 
 <Navbar rounded color="form" class="bg-light-100 rounded-none text-white">
